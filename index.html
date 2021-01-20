@@ -1,13 +1,30 @@
 <!DOCTYPE html>
-<html>
-<head>
-<title>Google reCAPTCHA test</title>
-<meta charset=utf-8>
-<script src='https://www.google.com/recaptcha/api.js'></script>
-</head>
-<body>
-<h1>Google reCAPTCHA test</h1>
-<p>Adds the vanilla <a href="https://www.google.com/recaptcha">reCAPTCHA</a> widget, for testing...</p>
-<div class="g-recaptcha" data-sitekey="6Ld2sf4SAAAAAKSgzs0Q13IZhY02Pyo31S2jgOB5"></div>
-</body>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css"
+      integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M"
+      crossorigin="anonymous"
+    />
+    <script src="https://www.google.com/recaptcha/api.js"></script>
+    <title>Recaptcha</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>Recaptcha</h1>
+      <form class="mt-4">
+        <div class="form-group">
+          <div
+            class="g-recaptcha"
+            data-sitekey="6Ld2sf4SAAAAAKSgzs0Q13IZhY02Pyo31S2jgOB5"
+          ></div>
+        </div>
+      </form>
+    </div>
+  </body>
 </html>
